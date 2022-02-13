@@ -12,7 +12,96 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+body {
+  background: radial-gradient(50% 50% at 50% 50%,#fc077d10 0,rgba(255,255,255,0) 100%);
+}
+.box {
+  top: 40%;
+  width: 500px;
+  margin: 0 auto;
+  background-color: #fff;
+  border-radius: 30px;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.box-header {
+  display: flex;
+  width: 95%;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding: 10px;
+}
+.icon {
+  width: 20px;
+}
+.box-content {
+  border-radius: 10px;
+  position: relative;
+}
+.input-number {
+  display: flex;
+  flex-flow: row nowrap;
+  -webkit-box-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  padding: 1rem;
+  width: 90%;
+  margin: 0 auto;
+  border-radius: 20px;
+  font-size: 20px;
+  position: relative;
+}
+.eth-btn {
+  position: absolute;
+  top: 15px;
+  display: flex;
+  right: 40px;
+  background-color: transparent;
+  border: none;
+}
+.first-box {
+  position: relative;
+}
+.ete {
+  width: 20px;
+}
+.btn-items {
+  display: flex;
+  align-items: center;
+}
+.btn-items span {
+  padding-left: 5px;
+  padding-top: 3px;
+}
+.the-num {
+  position: absolute;
+  bottom: 0;
+  right: 55px;
+}
+.second-box {
+  margin-top: 10px;
+  position: relative;
+}
+.btn {
+  margin-top: 10px;
+}
+.wallet-btn {
+  padding: 10px 130px;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  background-color: #fcdce8;
+  color: #d50066;
+  font-size: 16px;
+  opacity: 0.8;
+  transition: all .3s ease;
+}
+.wallet-btn:hover {
+  opacity: 1;
+}
+/* 
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -35,4 +124,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
